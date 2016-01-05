@@ -5,8 +5,6 @@ function destroyer(arr) {
  
   var filtered = array.filter(
     function (value) {
-      //I know this is wrong b/c args is an array
-      //Need to iterate through array
       return args.indexOf(value)===-1;;
     }
     );
